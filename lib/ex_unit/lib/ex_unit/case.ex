@@ -191,7 +191,7 @@ defmodule ExUnit.Case do
       config :logger, backends: []
   """
 
-  @reserved [:case, :file, :line, :test, :async, :registered, :describe, :type]
+  @reserved [:case, :file, :line, :test, :async, :registered, :it, :context, :describe, :type]
 
   @doc false
   defmacro __using__(opts) do
